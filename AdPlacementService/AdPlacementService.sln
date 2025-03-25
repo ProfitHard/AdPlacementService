@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdPlacementService", "AdPlacementService.csproj", "{C2F9D416-FEA3-47DC-90D4-DAE503B836E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdPlacementService.Tests", "..\AdPlacementService.Tests\AdPlacementService.Tests.csproj", "{4B43C6E7-0D37-47E1-8980-41EB3BD7FFB9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C2F9D416-FEA3-47DC-90D4-DAE503B836E3} = {C2F9D416-FEA3-47DC-90D4-DAE503B836E3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2F9D416-FEA3-47DC-90D4-DAE503B836E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F9D416-FEA3-47DC-90D4-DAE503B836E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F9D416-FEA3-47DC-90D4-DAE503B836E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F9D416-FEA3-47DC-90D4-DAE503B836E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B43C6E7-0D37-47E1-8980-41EB3BD7FFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B43C6E7-0D37-47E1-8980-41EB3BD7FFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B43C6E7-0D37-47E1-8980-41EB3BD7FFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B43C6E7-0D37-47E1-8980-41EB3BD7FFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
